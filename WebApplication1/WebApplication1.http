@@ -1,0 +1,9 @@
+@WebApplication1_HostAddress = https://localhost:7267
+@ACCESS_JWT=eyJhbGciOiJFZERTQSJ9.eyJzdWIiOiJjZW50ZXIiLCJpYXQiOjE3Mzk1MDc0MDAsImV4cCI6MTczOTY4MDIwMH0.WRjpJ-2RfjuOL5P6TYJLKX9mVN0O2HCxg4Cl32D_tm_3s5DJODpLjbOj1qXTYALEIaFfWQ697h0G_ZEDgfrfDQ
+
+
+GET {{WebApplication1_HostAddress}}/use_token/
+Accept: application/json
+Authorization: Bearer {{ACCESS_JWT}}
+
+###
