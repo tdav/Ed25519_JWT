@@ -31,7 +31,7 @@ namespace WebApplication1.Utils
                 ""kty"": ""OKP"",
                 ""crv"": ""Ed25519"",
                 ""kid"": ""center"",
-                ""x"": ""YMnORlpGq-K8clpvw3Uu82yT-81CNgixZlnIwKpJVx4""
+                ""x"": ""12nORlpGq-K8clpvw3Uu82yT-12CNgixZlnIwKpJVx4""
             }";
 
                 // Парсим JSON с публичным ключом
